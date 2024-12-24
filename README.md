@@ -70,7 +70,7 @@ docker run -v /path/to/input:/workspace/input -v /path/to/output:/workspace/outp
     File specifying the Docker image setup for the workflow.
 - **`snakemake_full.log`**:  
     Contains the log details of the Snakemake run.
-- **`Theoretical_Documentation.pdf`**:  
+- **`Theoretical_Documentation.md`**:  
     Detailed theoretical documentation explaining the methodology, implementation, and scientific principles behind the workflow.
     
 
