@@ -1,0 +1,19 @@
+ _aln.pos         10        20        30        40        50        60
+5w59B     MADNTKPNRMPVAPYWTSPEKMEKKLHAVPAAKTVKFKCPSSGTPQPTLRWLKNGKEFKPDHRIGGYK 
+1FQ9_2    -TDNTKPNRMPVAPYWTSPEKMEKKLHAVPAAKTVKFKCPSSGTPQPTLRWLKNGKEFKPDHRIGGYK 
+ _consrvd   ******************************************************************
+
+ _aln.p   70        80        90       100       110       120       130
+5w59B     VRYATWSIIMDSVVPSDKGNYTCIVENEYGSINHTYQLDVVERSRHRPILQAGLPANKTVALGSNVEF 
+1FQ9_2    VRYATWSIIMDSVVPSDKGNYTCIVENEYGSINHTYQLDVVERSPHRPILQAGLPANKTVALGSNVEF 
+ _consrvd ******************************************** ***********************
+
+ _aln.pos  140       150       160       170       180       190       200
+5w59B     MCKVYSDPQPHIQWLKHIEVNGSKIGPDNLPYVQILKTAGVNTTDKEMEVLHLRNVSFEDAGEYTCLA 
+1FQ9_2    MCKVYSDPQPHIQWLKHIEVNGSKIGPDNLPYVQILKTAGVNTTDKEMEVLHLRNVSFEDAGEYTCLA 
+ _consrvd ********************************************************************
+
+ _aln.pos    210       220
+5w59B     GNSIGLSHHSAWLTVLEALEER 
+1FQ9_2    GNSIGLSHHSAWLTVLEALEER 
+ _consrvd **********************

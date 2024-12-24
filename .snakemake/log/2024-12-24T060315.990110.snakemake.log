@@ -1,0 +1,47 @@
+host: 5a8e3f68e509
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 128
+Rules claiming more threads will be scaled down.
+Provided resources: gpu=1
+Job stats:
+job             count
+------------  -------
+all                 1
+run_modeller        3
+total               4
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 24 06:03:16 2024]
+localrule run_modeller:
+    input: output/colab_fold_output/P09038/log.txt, input/P09038.fasta
+    output: modeller/P09038.fasta_processed.success
+    jobid: 4
+    reason: Missing output files: modeller/P09038.fasta_processed.success; Code has changed since last execution
+    wildcards: SAMPLE_NAME=P09038
+    resources: tmpdir=/tmp, gpu=1
+
+[Tue Dec 24 06:05:11 2024]
+Error in rule run_modeller:
+    jobid: 4
+    input: output/colab_fold_output/P09038/log.txt, input/P09038.fasta
+    output: modeller/P09038.fasta_processed.success
+    shell:
+        
+        echo "output/colab_fold_output/P09038/log.txt generated. Initiating modeller for input/P09038.fasta"
+        mv input/P09038.fasta ./modeller
+        cd modeller
+        bash run.sh $(basename input/P09038.fasta) 2>&1 | tee -a output/logs/run_modeller.log
+        echo "Pipeline completed and all results moved to ./output"
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job run_modeller since they might be corrupted:
+modeller/P09038.fasta_processed.success
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-24T060315.990110.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

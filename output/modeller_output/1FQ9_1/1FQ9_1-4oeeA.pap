@@ -1,0 +1,14 @@
+ _aln.pos         10        20        30        40        50        60
+4oeeA     MAAGSITTLPALPEDGGSGAFPPGHFKDPKRLYCKNGGFFLRIHPDGRVDGVREKSDPHIKLQLQAEE 
+1FQ9_1    -----------------------GHFKDPKRLYCKNGGFFLRIHPDGRVDGVREKSDPHIKLQLQAEE 
+ _consrvd                        *********************************************
+
+ _aln.p   70        80        90       100       110       120       130
+4oeeA     RGVVSIKGVSANRYLAMKEDGRLLASKSVTDECFFFERLESNNYNTYRSRKYTSWYVALKRTGQYKLG 
+1FQ9_1    RGVVSIKGVSANRYLAMKEDGRLLASKSVTDECFFFERLESNNYNTYRSRKYTSWYVALKRTGQYKLG 
+ _consrvd ********************************************************************
+
+ _aln.pos  140       150
+4oeeA     SKTGPGQKAILFLPMSAKS 
+1FQ9_1    SKTGPGQKAILFLPMSAKS 
+ _consrvd *******************

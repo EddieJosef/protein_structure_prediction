@@ -1,0 +1,24 @@
+ _aln.pos         10        20        30        40        50        60
+4oeeA     -------------------------------------------------------------------- 
+P09038    MVGVGGGDVEDVTPRPGGCQISGRGARGCNGIPGAAAWEAALPRRRPRRHPSVNPRSRAAGSPRTRGR 
+ _consrvd
+
+ _aln.p   70        80        90       100       110       120       130
+4oeeA     -----------------------------------------------------------------MAA 
+P09038    RTEERPSGSRLGDRGRGRALPGGRLGGRGRGRAPERVGGRGRGRGTAAPRAAPAARGSRPGPAGTMAA 
+ _consrvd                                                                  ***
+
+ _aln.pos  140       150       160       170       180       190       200
+4oeeA     GSITTLPALPEDGGSGAFPPGHFKDPKRLYCKNGGFFLRIHPDGRVDGVREKSDPHIKLQLQAEERGV 
+P09038    GSITTLPALPEDGGSGAFPPGHFKDPKRLYCKNGGFFLRIHPDGRVDGVREKSDPHIKLQLQAEERGV 
+ _consrvd ********************************************************************
+
+ _aln.pos    210       220       230       240       250       260       270
+4oeeA     VSIKGVSANRYLAMKEDGRLLASKSVTDECFFFERLESNNYNTYRSRKYTSWYVALKRTGQYKLGSKT 
+P09038    VSIKGVCANRYLAMKEDGRLLASKCVTDECFFFERLESNNYNTYRSRKYTSWYVALKRTGQYKLGSKT 
+ _consrvd ****** ***************** *******************************************
+
+ _aln.pos      280
+4oeeA     GPGQKAILFLPMSAKS 
+P09038    GPGQKAILFLPMSAKS 
+ _consrvd ****************

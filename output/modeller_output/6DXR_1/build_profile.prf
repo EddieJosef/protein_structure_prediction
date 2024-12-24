@@ -1,0 +1,11 @@
+# Number of sequences:      5
+# Length of profile  :     83
+# N_PROF_ITERATIONS  :      1
+# GAP_PENALTIES_1D   :   -500.0   -50.0
+# MATRIX_OFFSET      : -450.0
+# RR_FILE            : ${LIB}/blosum62.sim.mat
+    1 6DXR_1                                   S     0    83     1    83     0     0     0    0.    0.0     MRLFLSLPVLVVVLSIVLEGPAPAQGTPDVSSALDKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKVKEKLKIDS
+    2 1ezeA                                    X     1    38    28    63     2    37    36   86.   0.47E-09 ---------------------------PDVSSALDKLKEFGNTLEDKAWEVINRIKQSEFPAK--------------------
+    3 6dvuA                                    X     1    51    31    81     1    51    51  100.    0.0     ------------------------------SSALDKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKVKEKLKI--
+    4 1oppA                                    X     1    38    27    64     1    38    38  100.    0.0     --------------------------TPDVSSALDKLKEFGNTLEDKARELISRIKQSELSAKM-------------------
+    5 6nf3A                                    X     1    46    34    79     1    46    46  100.    0.0     ---------------------------------LDKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKVKEKL----

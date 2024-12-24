@@ -1,0 +1,25 @@
+
+>P1;6DXR_1
+sequence:6DXR_1:    0: :    0: :::-1.00:-1.00
+MRLFLSLPVLVVVLSIVLEGPAPAQGTPDVSSALDKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKV
+KEKLKIDS*
+
+>P1;1ezeA
+structure:1ezeA:    2: :   37: :::-1.00:-1.00
+---------------------------PDVSSALDKLKEFGNTLEDKAWEVINRIKQSEFPAK------------
+--------*
+
+>P1;6dvuA
+structure:6dvuA:    1: :   51: :::-1.00:-1.00
+------------------------------SSALDKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKV
+KEKLKI--*
+
+>P1;1oppA
+structure:1oppA:    1: :   38: :::-1.00:-1.00
+--------------------------TPDVSSALDKLKEFGNTLEDKARELISRIKQSELSAKM-----------
+--------*
+
+>P1;6nf3A
+structure:6nf3A:    1: :   46: :::-1.00:-1.00
+---------------------------------LDKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKV
+KEKL----*

@@ -1,0 +1,12 @@
+name: snake
+channels:
+  - conda-forge
+  - bioconda
+  - salilab
+dependencies:
+  - python=3.12
+  - snakemake
+  - modeller
+  - biopython
+  - pdbfixer
+  - openmm

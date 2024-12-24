@@ -1,0 +1,18 @@
+Loading PDB file: 5w59_tobefixed.pdb
+
+--- Structure Cleaning Process ---
+Step 1: Finding Missing Residues...
+ - No missing residues found.
+
+Step 2: Replacing Non-standard Residues...
+ - No non-standard residues found.
+
+Step 3: Finding Missing Atoms...
+ - Added 358 missing atoms.
+
+Step 4: Adding Missing Hydrogens...
+ - Added hydrogens to the structure at neutral pH.
+
+Saving the cleaned structure...
+
+Template structure cleaned successfully: 5w59.pdb
