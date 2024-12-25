@@ -2,6 +2,8 @@
 
 This workflow automates the **Protein Structure Prediction** process, leveraging both template-based modeling (MODELLER) and AI-driven tools (ColabFold) to predict accurate 3D protein structures. The pipeline integrates sequence alignment, structural modeling, and refinement steps, offering a streamlined solution for researchers working on computational protein modeling.
 
+This repository demonstrates a **fully automated workflow**, where **three FASTA files** were processed simultaneously. The workflow handled each input gracefully, ensuring proper parallel execution and organized the outputs systematically in the `output` directory. This showcases the robustness and scalability of the pipeline for handling multiple protein sequences in a single run.
+
 ### **Overview**
 
 - The project aims to simplify and standardize protein structure prediction workflows.
