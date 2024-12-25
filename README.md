@@ -32,6 +32,11 @@ docker pull edjosef96/protein_structure_prediction:v2.0.1
 To execute the Protein Structure Prediction workflow, use the following command after adding your FASTA files to the `input` directory and mounting it:
 
 ```bash
+docker run -v /path/to/input:/workspace/input -v /path/to/output:/workspace/output edjosef96/protein_structure_prediction:v2.0.1
+```
+also, you can add additional flags to your command:
+
+```bash
 docker run -v /path/to/input:/workspace/input -v /path/to/output:/workspace/output --resources gpu=2 --cores all edjosef96/protein_structure_prediction:v2.0.1
 ```
 
@@ -40,7 +45,7 @@ docker run -v /path/to/input:/workspace/input -v /path/to/output:/workspace/outp
 - The workflow processes multiple FASTA files simultaneously.
 - If your FASTA files contain **multiple chains**, it is recommended to run the workflow with the `--jobs 1` flag to avoid issues during the splitting and renaming of the files in `split.sh`. Example:
 ```bash
-docker run -v /path/to/input:/workspace/input -v /path/to/output:/workspace/output --resources gpu=2 --cores all --jobs 1 edjosef96/protein_structure_prediction:v2.0.1 
+docker run -v /path/to/input:/workspace/input -v /path/to/output:/workspace/output --jobs 1 edjosef96/protein_structure_prediction:v2.0.1 
 ```
 
 
